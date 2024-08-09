@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B50ADC782C66CB160004BB53 /* Etude_SignUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50ADC772C66CB160004BB53 /* Etude_SignUpApp.swift */; };
+		B50ADC7A2C66CB160004BB53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50ADC792C66CB160004BB53 /* ContentView.swift */; };
+		B50ADC7C2C66CB1A0004BB53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50ADC7B2C66CB1A0004BB53 /* Assets.xcassets */; };
+		B50ADC7F2C66CB1A0004BB53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50ADC7E2C66CB1A0004BB53 /* Preview Assets.xcassets */; };
+		B50ADC892C66CB1A0004BB53 /* Etude_SignUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50ADC882C66CB1A0004BB53 /* Etude_SignUpTests.swift */; };
+		B50ADC932C66CB1A0004BB53 /* Etude_SignUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50ADC922C66CB1A0004BB53 /* Etude_SignUpUITests.swift */; };
+		B50ADC952C66CB1A0004BB53 /* Etude_SignUpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50ADC942C66CB1A0004BB53 /* Etude_SignUpUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B50ADC852C66CB1A0004BB53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B50ADC6C2C66CB160004BB53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B50ADC732C66CB160004BB53;
+			remoteInfo = Etude_SignUp;
+		};
+		B50ADC8F2C66CB1A0004BB53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B50ADC6C2C66CB160004BB53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B50ADC732C66CB160004BB53;
+			remoteInfo = Etude_SignUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B50ADC742C66CB160004BB53 /* Etude_SignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Etude_SignUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50ADC772C66CB160004BB53 /* Etude_SignUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etude_SignUpApp.swift; sourceTree = "<group>"; };
+		B50ADC792C66CB160004BB53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B50ADC7B2C66CB1A0004BB53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B50ADC7E2C66CB1A0004BB53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B50ADC842C66CB1A0004BB53 /* Etude_SignUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Etude_SignUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50ADC882C66CB1A0004BB53 /* Etude_SignUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etude_SignUpTests.swift; sourceTree = "<group>"; };
+		B50ADC8E2C66CB1A0004BB53 /* Etude_SignUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Etude_SignUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50ADC922C66CB1A0004BB53 /* Etude_SignUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etude_SignUpUITests.swift; sourceTree = "<group>"; };
+		B50ADC942C66CB1A0004BB53 /* Etude_SignUpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etude_SignUpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B50ADC712C66CB160004BB53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50ADC812C66CB1A0004BB53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50ADC8B2C66CB1A0004BB53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B50ADC6B2C66CB160004BB53 = {
+			isa = PBXGroup;
+			children = (
+				B50ADC762C66CB160004BB53 /* Etude_SignUp */,
+				B50ADC872C66CB1A0004BB53 /* Etude_SignUpTests */,
+				B50ADC912C66CB1A0004BB53 /* Etude_SignUpUITests */,
+				B50ADC752C66CB160004BB53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B50ADC752C66CB160004BB53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B50ADC742C66CB160004BB53 /* Etude_SignUp.app */,
+				B50ADC842C66CB1A0004BB53 /* Etude_SignUpTests.xctest */,
+				B50ADC8E2C66CB1A0004BB53 /* Etude_SignUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B50ADC762C66CB160004BB53 /* Etude_SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				B50ADC772C66CB160004BB53 /* Etude_SignUpApp.swift */,
+				B50ADC792C66CB160004BB53 /* ContentView.swift */,
+				B50ADC7B2C66CB1A0004BB53 /* Assets.xcassets */,
+				B50ADC7D2C66CB1A0004BB53 /* Preview Content */,
+			);
+			path = Etude_SignUp;
+			sourceTree = "<group>";
+		};
+		B50ADC7D2C66CB1A0004BB53 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B50ADC7E2C66CB1A0004BB53 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B50ADC872C66CB1A0004BB53 /* Etude_SignUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				B50ADC882C66CB1A0004BB53 /* Etude_SignUpTests.swift */,
+			);
+			path = Etude_SignUpTests;
+			sourceTree = "<group>";
+		};
+		B50ADC912C66CB1A0004BB53 /* Etude_SignUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B50ADC922C66CB1A0004BB53 /* Etude_SignUpUITests.swift */,
+				B50ADC942C66CB1A0004BB53 /* Etude_SignUpUITestsLaunchTests.swift */,
+			);
+			path = Etude_SignUpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B50ADC732C66CB160004BB53 /* Etude_SignUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50ADC982C66CB1A0004BB53 /* Build configuration list for PBXNativeTarget "Etude_SignUp" */;
+			buildPhases = (
+				B50ADC702C66CB160004BB53 /* Sources */,
+				B50ADC712C66CB160004BB53 /* Frameworks */,
+				B50ADC722C66CB160004BB53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Etude_SignUp;
+			productName = Etude_SignUp;
+			productReference = B50ADC742C66CB160004BB53 /* Etude_SignUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B50ADC832C66CB1A0004BB53 /* Etude_SignUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50ADC9B2C66CB1A0004BB53 /* Build configuration list for PBXNativeTarget "Etude_SignUpTests" */;
+			buildPhases = (
+				B50ADC802C66CB1A0004BB53 /* Sources */,
+				B50ADC812C66CB1A0004BB53 /* Frameworks */,
+				B50ADC822C66CB1A0004BB53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B50ADC862C66CB1A0004BB53 /* PBXTargetDependency */,
+			);
+			name = Etude_SignUpTests;
+			productName = Etude_SignUpTests;
+			productReference = B50ADC842C66CB1A0004BB53 /* Etude_SignUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B50ADC8D2C66CB1A0004BB53 /* Etude_SignUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50ADC9E2C66CB1A0004BB53 /* Build configuration list for PBXNativeTarget "Etude_SignUpUITests" */;
+			buildPhases = (
+				B50ADC8A2C66CB1A0004BB53 /* Sources */,
+				B50ADC8B2C66CB1A0004BB53 /* Frameworks */,
+				B50ADC8C2C66CB1A0004BB53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B50ADC902C66CB1A0004BB53 /* PBXTargetDependency */,
+			);
+			name = Etude_SignUpUITests;
+			productName = Etude_SignUpUITests;
+			productReference = B50ADC8E2C66CB1A0004BB53 /* Etude_SignUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B50ADC6C2C66CB160004BB53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B50ADC732C66CB160004BB53 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B50ADC832C66CB1A0004BB53 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B50ADC732C66CB160004BB53;
+					};
+					B50ADC8D2C66CB1A0004BB53 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B50ADC732C66CB160004BB53;
+					};
+				};
+			};
+			buildConfigurationList = B50ADC6F2C66CB160004BB53 /* Build configuration list for PBXProject "Etude_SignUp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B50ADC6B2C66CB160004BB53;
+			productRefGroup = B50ADC752C66CB160004BB53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B50ADC732C66CB160004BB53 /* Etude_SignUp */,
+				B50ADC832C66CB1A0004BB53 /* Etude_SignUpTests */,
+				B50ADC8D2C66CB1A0004BB53 /* Etude_SignUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B50ADC722C66CB160004BB53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50ADC7F2C66CB1A0004BB53 /* Preview Assets.xcassets in Resources */,
+				B50ADC7C2C66CB1A0004BB53 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50ADC822C66CB1A0004BB53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50ADC8C2C66CB1A0004BB53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B50ADC702C66CB160004BB53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50ADC7A2C66CB160004BB53 /* ContentView.swift in Sources */,
+				B50ADC782C66CB160004BB53 /* Etude_SignUpApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50ADC802C66CB1A0004BB53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50ADC892C66CB1A0004BB53 /* Etude_SignUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50ADC8A2C66CB1A0004BB53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50ADC952C66CB1A0004BB53 /* Etude_SignUpUITestsLaunchTests.swift in Sources */,
+				B50ADC932C66CB1A0004BB53 /* Etude_SignUpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B50ADC862C66CB1A0004BB53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B50ADC732C66CB160004BB53 /* Etude_SignUp */;
+			targetProxy = B50ADC852C66CB1A0004BB53 /* PBXContainerItemProxy */;
+		};
+		B50ADC902C66CB1A0004BB53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B50ADC732C66CB160004BB53 /* Etude_SignUp */;
+			targetProxy = B50ADC8F2C66CB1A0004BB53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B50ADC962C66CB1A0004BB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B50ADC972C66CB1A0004BB53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B50ADC992C66CB1A0004BB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Etude_SignUp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XJ.Etude-SignUp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B50ADC9A2C66CB1A0004BB53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Etude_SignUp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XJ.Etude-SignUp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B50ADC9C2C66CB1A0004BB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XJ.Etude-SignUpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Etude_SignUp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Etude_SignUp";
+			};
+			name = Debug;
+		};
+		B50ADC9D2C66CB1A0004BB53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XJ.Etude-SignUpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Etude_SignUp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Etude_SignUp";
+			};
+			name = Release;
+		};
+		B50ADC9F2C66CB1A0004BB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XJ.Etude-SignUpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Etude_SignUp;
+			};
+			name = Debug;
+		};
+		B50ADCA02C66CB1A0004BB53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XJ.Etude-SignUpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Etude_SignUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B50ADC6F2C66CB160004BB53 /* Build configuration list for PBXProject "Etude_SignUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50ADC962C66CB1A0004BB53 /* Debug */,
+				B50ADC972C66CB1A0004BB53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50ADC982C66CB1A0004BB53 /* Build configuration list for PBXNativeTarget "Etude_SignUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50ADC992C66CB1A0004BB53 /* Debug */,
+				B50ADC9A2C66CB1A0004BB53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50ADC9B2C66CB1A0004BB53 /* Build configuration list for PBXNativeTarget "Etude_SignUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50ADC9C2C66CB1A0004BB53 /* Debug */,
+				B50ADC9D2C66CB1A0004BB53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50ADC9E2C66CB1A0004BB53 /* Build configuration list for PBXNativeTarget "Etude_SignUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50ADC9F2C66CB1A0004BB53 /* Debug */,
+				B50ADCA02C66CB1A0004BB53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B50ADC6C2C66CB160004BB53 /* Project object */;
+}
